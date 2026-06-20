@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let list = [11,22,33,44,55,66,77];
+        //map function of array
+        // let double = list.map((n)=>{
+        //     if(n%2==0)
+        //     return n*2;
+        // });
+        // let doublu = list.map((n)=> n*2);
+        // console.log(double);
+
+
+        // let even = list.filter((num)=> num%2==0);//ye number pe filter lga rha hai yani jo jo kewal even hai uska hi array bna rha hai bs
+        // console.log(even);
+
+        // let even = list.find((num)=> num%2==0);// ye kewal one even ko find krna baki sb ko xod deta hai waise hi jo pahle hoga usi ko kewal leta hai
+        // console.log(even);
+
+        let even = list.findIndex((num)=> num%2==0);// ye kewal ek ka even ka given condition ke hisab se kewal ek  index layega
+        console.log(even);
+
+
+    </script>
+</body>
+</html>

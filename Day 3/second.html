@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = ["Ayush","Srijan","Alok","Anuj","Vivek"];
+        console.log(students.length);
+        students.push("Manish");
+        console.log(students.length);
+        console.log(students);
+        students.pop();
+        students.push("Gamer");
+        students.unshift("Beta Samarth");//to insert data from first
+        console.log(students);
+        students.shift();//remove  data from first
+
+        for(let i = 0 ; i<students.length;i++)
+    {
+        console.log (i+" - "+ students[i]);
+    }
+
+
+    </script>
+</body>
+</html>
